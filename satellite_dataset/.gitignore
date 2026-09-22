@@ -1,0 +1,15 @@
+# secrets - never commit real keys
+.env
+
+# generated data (large / regenerable - don't commit to GitHub)
+data/
+
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS/editor
+.DS_Store

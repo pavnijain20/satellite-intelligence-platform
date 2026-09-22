@@ -1,0 +1,11 @@
+rasterio
+geopandas
+shapely
+pyproj
+pystac-client
+pyogrio
+pandas
+numpy
+matplotlib
+requests
+python-dotenv
