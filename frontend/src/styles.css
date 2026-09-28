@@ -1,0 +1,216 @@
+@import "tailwindcss" source(none);
+@source "../src";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+/*
+ * ORBITAL SENTINEL — satellite intelligence design system.
+ * Dark-only geospatial analyst workstation palette.
+ * All colors are oklch semantic tokens. Never hardcode colors in components.
+ */
+
+@theme inline {
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --radius-2xl: calc(var(--radius) + 8px);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-panel: var(--panel);
+  --color-panel-foreground: var(--panel-foreground);
+  --color-surface: var(--surface);
+  --color-grid: var(--grid);
+  --color-ok: var(--ok);
+  --color-warn: var(--warn);
+  --color-alert: var(--alert);
+  --color-info: var(--info);
+  --color-change: var(--change);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-border: var(--sidebar-border);
+  --font-sans: "IBM Plex Sans", ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+:root {
+  --radius: 0.375rem;
+
+  --background: oklch(0.18 0.022 255);
+  --foreground: oklch(0.95 0.008 240);
+
+  --surface: oklch(0.215 0.024 254);
+  --panel: oklch(0.235 0.025 254);
+  --panel-foreground: oklch(0.95 0.008 240);
+
+  --card: oklch(0.228 0.024 254);
+  --card-foreground: oklch(0.95 0.008 240);
+  --popover: oklch(0.22 0.024 254);
+  --popover-foreground: oklch(0.95 0.008 240);
+
+  --primary: oklch(0.72 0.135 215);
+  --primary-foreground: oklch(0.17 0.03 250);
+
+  --secondary: oklch(0.28 0.026 253);
+  --secondary-foreground: oklch(0.92 0.01 240);
+
+  --muted: oklch(0.27 0.024 253);
+  --muted-foreground: oklch(0.68 0.018 245);
+
+  --accent: oklch(0.31 0.04 245);
+  --accent-foreground: oklch(0.95 0.01 240);
+
+  --destructive: oklch(0.62 0.2 25);
+  --destructive-foreground: oklch(0.97 0.01 240);
+
+  --border: oklch(0.32 0.025 250);
+  --input: oklch(0.3 0.025 250);
+  --ring: oklch(0.72 0.135 215);
+
+  --ok: oklch(0.74 0.15 158);
+  --warn: oklch(0.79 0.15 78);
+  --alert: oklch(0.66 0.19 25);
+  --info: oklch(0.72 0.135 215);
+  --change: oklch(0.68 0.2 35);
+  --grid: oklch(0.32 0.025 250 / 45%);
+
+  --chart-1: oklch(0.72 0.135 215);
+  --chart-2: oklch(0.74 0.15 158);
+  --chart-3: oklch(0.79 0.15 78);
+  --chart-4: oklch(0.68 0.2 35);
+  --chart-5: oklch(0.7 0.11 280);
+
+  --sidebar: oklch(0.203 0.023 254);
+  --sidebar-foreground: oklch(0.9 0.01 240);
+  --sidebar-accent: oklch(0.27 0.035 240);
+  --sidebar-border: oklch(0.3 0.025 250);
+}
+
+@layer base {
+  * {
+    border-color: var(--color-border);
+  }
+
+  html,
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  ::-webkit-scrollbar {
+    width: 9px;
+    height: 9px;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: var(--color-border);
+    border-radius: 999px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--color-muted-foreground);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-ring);
+    outline-offset: 2px;
+  }
+}
+
+/* ---- Utilities ---- */
+
+@utility panel {
+  background-color: var(--color-panel);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+}
+
+@utility label-caps {
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-muted-foreground);
+}
+
+@utility grid-backdrop {
+  background-image:
+    linear-gradient(to right, var(--color-grid) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--color-grid) 1px, transparent 1px);
+  background-size: 28px 28px;
+}
+
+@utility glow-primary {
+  box-shadow:
+    0 0 0 1px oklch(0.72 0.135 215 / 25%),
+    0 0 24px -8px oklch(0.72 0.135 215 / 45%);
+}
+
+@utility scanline {
+  background-image: linear-gradient(
+    180deg,
+    transparent 0%,
+    oklch(0.72 0.135 215 / 6%) 50%,
+    transparent 100%
+  );
+}
+
+/* Leaflet dark treatment */
+.leaflet-container {
+  background: var(--color-surface);
+  font-family: var(--font-sans);
+}
+.leaflet-tile-pane {
+  filter: invert(0.94) hue-rotate(185deg) brightness(0.92) contrast(0.88) saturate(0.7);
+}
+.leaflet-control-zoom a,
+.leaflet-bar a {
+  background: var(--color-panel) !important;
+  color: var(--color-foreground) !important;
+  border-color: var(--color-border) !important;
+}
+.leaflet-popup-content-wrapper,
+.leaflet-popup-tip {
+  background: var(--color-panel) !important;
+  color: var(--color-foreground) !important;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  box-shadow: 0 12px 40px -12px oklch(0 0 0 / 70%);
+}
+.leaflet-container a.leaflet-popup-close-button {
+  color: var(--color-muted-foreground) !important;
+}
+.leaflet-control-attribution {
+  background: oklch(0.18 0.022 255 / 75%) !important;
+  color: var(--color-muted-foreground) !important;
+}
+.leaflet-control-attribution a {
+  color: var(--color-primary) !important;
+}
