@@ -18,6 +18,14 @@ Satellite tiles ko text query se search karne ka module. CLIP (OpenAI) model se 
 
 ⚠️ Pehli baar chalane pe embeddings banane mein 10-20 min lagte hain (Step 6). Ye Drive pe save ho jata hai (Step 6B), isliye **agli baar dobara nahi banana padta** — sirf Step 6C chalao (usme se `#` hata ke) jo saved index seconds mein load kar deta hai.
 
+## Pre-built index (Google Drive)
+
+Embeddings, FAISS index, `paths.pkl`, aur `search_results.json` already ban chuke hain — dobara build karne ki zarurat nahi (bahut bhari files hain, isliye GitHub pe nahi daali):
+
+https://drive.google.com/drive/folders/1ahBTCmtxRgngz6OUUb08c4rEJDcofKZQ?usp=sharing
+
+Backend team seedha yahan se `embeddings.npy`, `faiss.index`, `paths.pkl` download/use kar sakti hai, ya notebook ke Step 6C se load kar sakti hai.
+
 ## Input
 
 `dataset/tiles/<City>/<year>/<tile_id>.tif` — Member 2 ke pipeline se aaya hua data. Har tile 256×256 px, 7 bands (B02, B03, B04, B08, B11, B12, valid).
