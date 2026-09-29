@@ -1,0 +1,182 @@
+[
+  {
+    "query": "buildings and urban area",
+    "results": [
+      {
+        "rank": 1,
+        "score": 0.29350045323371887,
+        "path": "/content/drive/MyDrive/Sih2026/satellite_dataset/satellite_dataset/dataset/tiles/Mumbai/2024/Mumbai_r02_c04.tif",
+        "tile_id": "Mumbai_r02_c04",
+        "year": "2024",
+        "city": "Mumbai"
+      },
+      {
+        "rank": 2,
+        "score": 0.29338717460632324,
+        "path": "/content/drive/MyDrive/Sih2026/satellite_dataset/satellite_dataset/dataset/tiles/Mumbai/2026/Mumbai_r02_c04.tif",
+        "tile_id": "Mumbai_r02_c04",
+        "year": "2026",
+        "city": "Mumbai"
+      },
+      {
+        "rank": 3,
+        "score": 0.2923700213432312,
+        "path": "/content/drive/MyDrive/Sih2026/satellite_dataset/satellite_dataset/dataset/tiles/Mumbai/2025/Mumbai_r00_c06.tif",
+        "tile_id": "Mumbai_r00_c06",
+        "year": "2025",
+        "city": "Mumbai"
+      },
+      {
+        "rank": 4,
+        "score": 0.29235005378723145,
+        "path": "/content/drive/MyDrive/Sih2026/satellite_dataset/satellite_dataset/dataset/tiles/Mumbai/2022/Mumbai_r00_c06.tif",
+        "tile_id": "Mumbai_r00_c06",
+        "year": "2022",
+        "city": "Mumbai"
+      },
+      {
+        "rank": 5,
+        "score": 0.29205745458602905,
+        "path": "/content/drive/MyDrive/Sih2026/satellite_dataset/satellite_dataset/dataset/tiles/Mumbai/2025/Mumbai_r02_c04.tif",
+        "tile_id": "Mumbai_r02_c04",
+        "year": "2025",
+        "city": "Mumbai"
+      }
+    ]
+  },
+  {
+    "query": "green farmland",
+    "results": [
+      {
+        "rank": 1,
+        "score": 0.2867308259010315,
+        "path": "/content/drive/MyDrive/Sih2026/satellite_dataset/satellite_dataset/dataset/tiles/Indore/2020/Indore_r04_c00.tif",
+        "tile_id": "Indore_r04_c00",
+        "year": "2020",
+        "city": "Indore"
+      },
+      {
+        "rank": 2,
+        "score": 0.28632932901382446,
+        "path": "/content/drive/MyDrive/Sih2026/satellite_dataset/satellite_dataset/dataset/tiles/Indore/2020/Indore_r01_c01.tif",
+        "tile_id": "Indore_r01_c01",
+        "year": "2020",
+        "city": "Indore"
+      },
+      {
+        "rank": 3,
+        "score": 0.28552955389022827,
+        "path": "/content/drive/MyDrive/Sih2026/satellite_dataset/satellite_dataset/dataset/tiles/Indore/2020/Indore_r00_c00.tif",
+        "tile_id": "Indore_r00_c00",
+        "year": "2020",
+        "city": "Indore"
+      },
+      {
+        "rank": 4,
+        "score": 0.2851569950580597,
+        "path": "/content/drive/MyDrive/Sih2026/satellite_dataset/satellite_dataset/dataset/tiles/Indore/2026/Indore_r04_c00.tif",
+        "tile_id": "Indore_r04_c00",
+        "year": "2026",
+        "city": "Indore"
+      },
+      {
+        "rank": 5,
+        "score": 0.28394898772239685,
+        "path": "/content/drive/MyDrive/Sih2026/satellite_dataset/satellite_dataset/dataset/tiles/Indore/2020/Indore_r00_c01.tif",
+        "tile_id": "Indore_r00_c01",
+        "year": "2020",
+        "city": "Indore"
+      }
+    ]
+  },
+  {
+    "query": "water body or river",
+    "results": [
+      {
+        "rank": 1,
+        "score": 0.26236581802368164,
+        "path": "/content/drive/MyDrive/Sih2026/satellite_dataset/satellite_dataset/dataset/tiles/Mumbai/2025/Mumbai_r03_c07.tif",
+        "tile_id": "Mumbai_r03_c07",
+        "year": "2025",
+        "city": "Mumbai"
+      },
+      {
+        "rank": 2,
+        "score": 0.26017189025878906,
+        "path": "/content/drive/MyDrive/Sih2026/satellite_dataset/satellite_dataset/dataset/tiles/Ahmedabad/2026/Ahmedabad_r07_c02.tif",
+        "tile_id": "Ahmedabad_r07_c02",
+        "year": "2026",
+        "city": "Ahmedabad"
+      },
+      {
+        "rank": 3,
+        "score": 0.25957828760147095,
+        "path": "/content/drive/MyDrive/Sih2026/satellite_dataset/satellite_dataset/dataset/tiles/Mumbai/2026/Mumbai_r07_c07.tif",
+        "tile_id": "Mumbai_r07_c07",
+        "year": "2026",
+        "city": "Mumbai"
+      },
+      {
+        "rank": 4,
+        "score": 0.2593899965286255,
+        "path": "/content/drive/MyDrive/Sih2026/satellite_dataset/satellite_dataset/dataset/tiles/Mumbai/2020/Mumbai_r01_c07.tif",
+        "tile_id": "Mumbai_r01_c07",
+        "year": "2020",
+        "city": "Mumbai"
+      },
+      {
+        "rank": 5,
+        "score": 0.25932103395462036,
+        "path": "/content/drive/MyDrive/Sih2026/satellite_dataset/satellite_dataset/dataset/tiles/Mumbai/2023/Mumbai_r03_c07.tif",
+        "tile_id": "Mumbai_r03_c07",
+        "year": "2023",
+        "city": "Mumbai"
+      }
+    ]
+  },
+  {
+    "query": "construction site",
+    "results": [
+      {
+        "rank": 1,
+        "score": 0.24156241118907928,
+        "path": "/content/drive/MyDrive/Sih2026/satellite_dataset/satellite_dataset/dataset/tiles/Mumbai/2020/Mumbai_r06_c05.tif",
+        "tile_id": "Mumbai_r06_c05",
+        "year": "2020",
+        "city": "Mumbai"
+      },
+      {
+        "rank": 2,
+        "score": 0.24068517982959747,
+        "path": "/content/drive/MyDrive/Sih2026/satellite_dataset/satellite_dataset/dataset/tiles/Mumbai/2021/Mumbai_r06_c05.tif",
+        "tile_id": "Mumbai_r06_c05",
+        "year": "2021",
+        "city": "Mumbai"
+      },
+      {
+        "rank": 3,
+        "score": 0.23738959431648254,
+        "path": "/content/drive/MyDrive/Sih2026/satellite_dataset/satellite_dataset/dataset/tiles/Indore/2023/Indore_r03_c01.tif",
+        "tile_id": "Indore_r03_c01",
+        "year": "2023",
+        "city": "Indore"
+      },
+      {
+        "rank": 4,
+        "score": 0.23687364161014557,
+        "path": "/content/drive/MyDrive/Sih2026/satellite_dataset/satellite_dataset/dataset/tiles/Mumbai/2023/Mumbai_r06_c05.tif",
+        "tile_id": "Mumbai_r06_c05",
+        "year": "2023",
+        "city": "Mumbai"
+      },
+      {
+        "rank": 5,
+        "score": 0.23621876537799835,
+        "path": "/content/drive/MyDrive/Sih2026/satellite_dataset/satellite_dataset/dataset/tiles/Mumbai/2020/Mumbai_r00_c07.tif",
+        "tile_id": "Mumbai_r00_c07",
+        "year": "2020",
+        "city": "Mumbai"
+      }
+    ]
+  }
+]
